@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
+:root{
+    --main-bg-color: #2874f0;
+}
+:root{
+    --col-card-color: #eeecec;
+}
+*{
+    padding: 0;margin: 0;
+}
+header{
+    /* position: relative; */
+    
+    position: sticky;
+    top: 0;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+    /* height: 18vh; */
+    /* width: 100vw; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0px 25px;
+}
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+      font-weight: bolder;
+}
+.search{
+    display: flex;
+align-items: center;
+padding: 0px 21px;
+}
+.search input{
+    width: 30vw;
+    border-radius: 5px;
+    height: 18px;
+    margin: 0px 20px 0px 30px;
+    padding: 12px;
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+.slider{
+    /* display: flex;
+    justify-content: center; */
+    width: 87vw;
+    margin: 6px auto;
+    overflow: hidden;
+}
+.card{
+    /* display:flex; */
+    display: flex;
+    overflow:auto;
+    /* justify-content: space-between; */
+    /* flex-direction: row; */
+    border-radius: 4px;
+    background-color: rgb(240, 233, 233);
+    max-width: 91vw;
+    margin: auto
+}
+/* .card h2{
+    font-family: 'Public Sans', sans-serif;
+} */
+h2{
+    border-radius: 3px;
+    font-family: 'Public Sans', sans-serif;
+    /* margin: 0px 0px 0px 10px; */
+    /* margin: 0px 55px 0px 10px; */
+background-color: rgb(240, 233, 233);
+}
+.card-item{
+    margin: 0px 56px 0px 17px;
+    width: 10vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+.content{
+    background-color:rgb(240, 233, 233);
+    max-width: 91vw;
+    margin:50px auto 20px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column */
+}
